@@ -117,3 +117,7 @@ print(hash_table)
 
 # return no record found
 print(hash_table.get_val('elsa@nortphole.org'))
+
+my_dict = {i:i+7 for i in range(1, 10)}
+
+print(my_dict)
